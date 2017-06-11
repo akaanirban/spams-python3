@@ -61,7 +61,7 @@ Carefully install atlas. For example on ubuntu, necessary to `apt-get install li
 If you don't have libblas.so and liblapack.so in /lib or /usr/lib, you need to edit `setup.py`
 
 ## INITIAL START
-Run the `source ./runDev.sh' from inside `~/spams-python3` everytime you start the session to set the `PYTHONPATH` environment variable.
+Run the `source ./runDev.sh` from inside `~/spams-python3` everytime you start the session to set the `PYTHONPATH` environment variable.
 
 #### MacOS:
 TODO
