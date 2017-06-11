@@ -62,6 +62,14 @@ If you don't have libblas.so and liblapack.so in /lib or /usr/lib, you need to e
 
 ## INITIAL START
 Run the `source ./runDev.sh` from inside `~/spams-python3` everytime you start the session to set the `PYTHONPATH` environment variable.
+### 
+On Ubuntu 16.04 make sure you have the packages
+
+`liblapack-dev`
+`liblapack3`
+`libopenblas-base`
+`libopenblas-dev`
+installed. After that, "-L/usr/lib -llapack -lblas" should work.
 
 #### MacOS:
 TODO
